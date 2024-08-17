@@ -1,0 +1,14 @@
+site:
+  title: "Nilesh_kotfolio"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/nilesh_kotfolio.js"
+      api: "build/libs/nilesh_kotfolio.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/nilesh_kotfolio.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
